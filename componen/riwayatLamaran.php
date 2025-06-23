@@ -3,8 +3,7 @@ include '../controller/userauth.php';
 include '../koneksi/koneksi.php';
 
 $id_kandidat = $_SESSION['id']; // pastikan ini sudah diset saat login
-var_dump($id_kandidat);
-echo $id_kandidat;
+
 
 $query = "
 SELECT 

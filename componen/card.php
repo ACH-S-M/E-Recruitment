@@ -1,6 +1,5 @@
 <?php
 include __DIR__.'/lowongan.php';
-include '../koneksi/koneksi.php';
 
 $lowongan = new Lowongan($koneksi);
 $getlowongan = $lowongan->tampilkanLowongan(); //sesuai fungsi di lowongan.php
@@ -18,7 +17,7 @@ $getlowongan = $lowongan->tampilkanLowongan(); //sesuai fungsi di lowongan.php
         <div class="space-y-6">
           <!-- Job Card -->
           <?php foreach($getlowongan as $data):?>
-          <div class="border-b pb-4">
+          <div class="border-b pb-4 w-[900px] hover:shadow-xl p-3">
             <a href="#" class="text-lg font-semibold text-blue-900 hover:underline">
               <?php echo $data['judul']?>
             </a>

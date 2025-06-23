@@ -22,7 +22,7 @@
   <nav class="flex items-center justify-between px-10 py-4 bg-white border-b">
     <!-- Logo -->
     <div class="flex items-center space-x-2">
-      <img src="../assets/img/COMPANY LOGO-blue.png" alt="Logo" class="h-10">
+      <img src="assets/img/COMPANY LOGO-blue.png" alt="Logo" class="h-10">
       <div class="text-xs text-[#065f73] font-semibold uppercase">PT. ANANDA<br><span class="text-[10px] tracking-widest">Lintas Cakrawala</span></div>
     </div>
 
@@ -32,10 +32,10 @@
         <button onclick="showSection('tentang')" class="nav-link">Tentang</button>
       </li>
       <li>
-        <button onclick="showSection('lamaran')" class="nav-link">Lowongan</button>
+          <a href="lowongan.php"><button onclick="showSection('lamaran')" class="nav-link">Lowongan</button></a>
       </li>
       <li>
-        <button onclick="showSection('lamaran')" class="nav-link">Lamaran Saya</button>
+         <a href="lamaran.php"><button onclick="showSection('lamaran')" class="nav-link">Lamaran</button></a>
       </li>
       <li>
         <button onclick="showSection('profil')" class="nav-link">Profil</button>

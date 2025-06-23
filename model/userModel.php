@@ -1,5 +1,4 @@
 <?php 
-    include __DIR__.'/../koneksi/koneksi.php';
 
 class model{
     private $koneksi;
